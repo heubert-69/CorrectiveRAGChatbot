@@ -8,20 +8,20 @@ This project implements a conversational AI system using a pre-trained transform
 
 Instead of relying purely on generation, the chatbot:
 
-Generates an initial response
-Evaluates its quality using heuristic checks
-Retrieves external knowledge if needed
-Regenerates a more grounded response
-🧠 Key Features
-💬 Context-aware conversation (chat memory)
-🔁 Continuous multi-turn interaction
-⚙️ Controlled text generation (temperature, top-k, top-p)
-🧠 Corrective RAG (CRAG) pipeline
-🌐 External knowledge retrieval (Wikipedia)
-🧼 Input validation & response filtering
-🔄 Chat reset functionality
-🎯 Reduced hallucination vs standard chatbots
-🖥️ Interactive UI using Streamlit
+- Generates an initial response
+- Evaluates its quality using heuristic checks
+- Retrieves external knowledge if needed
+- Regenerates a more grounded response
+- Key Features
+- Context-aware conversation (chat memory)
+- Continuous multi-turn interaction
+- Controlled text generation (temperature, top-k, top-p)
+- Corrective RAG (CRAG) pipeline
+- External knowledge retrieval (Wikipedia)
+- Input validation & response filtering
+- Chat reset functionality
+- Reduced hallucination vs standard chatbots
+- Interactive UI using Streamlit
 --
 Architecture:
 User Input
