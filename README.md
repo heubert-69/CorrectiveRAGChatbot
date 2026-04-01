@@ -22,7 +22,8 @@ Instead of relying purely on generation, the chatbot:
 - Chat reset functionality
 - Reduced hallucination vs standard chatbots
 - Interactive UI using Streamlit
---
+
+
 Architecture:
 ```bash
 User Input
