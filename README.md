@@ -24,6 +24,7 @@ Instead of relying purely on generation, the chatbot:
 - Interactive UI using Streamlit
 --
 Architecture:
+```bash
 User Input
    ↓
 Transformer Model (DialoGPT)
@@ -35,6 +36,7 @@ Response Evaluation (Heuristics)
            → Augmented Prompt
            → Regenerate Response
    → NO  → Return Response
+```
 --
 Tech Stack:
 - Python
